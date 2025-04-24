@@ -4,7 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instalasi Ruby dan Jekyll</title>
+
+    <!--stylesheet-->
     <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!--favicon-->
+    <link rel="icon" href="/assets/images/favicon.ico">
+
+    <!--javascript-->
+    <script src="/assets/js/script.js"></script>
+
+
+    <!--plugins-->
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Instalasi Ruby dan Jekyll</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Instalasi Ruby dan Jekyll" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula 💎 Mengenal Ruby &amp; Jekyll Ruby: Bahasa pemrograman dinamis yang powerfull" />
+<meta property="og:description" content="📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula 💎 Mengenal Ruby &amp; Jekyll Ruby: Bahasa pemrograman dinamis yang powerfull" />
+<link rel="canonical" href="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html" />
+<meta property="og:url" content="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-02-20T00:00:00+07:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Instalasi Ruby dan Jekyll" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-20T00:00:00+07:00","datePublished":"2025-02-20T00:00:00+07:00","description":"📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula 💎 Mengenal Ruby &amp; Jekyll Ruby: Bahasa pemrograman dinamis yang powerfull","headline":"Instalasi Ruby dan Jekyll","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html"},"url":"http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
 </head>
 <body>
     <nav>
@@ -17,7 +47,121 @@
     
 </nav>
     <h1>Instalasi Ruby dan Jekyll</h1>
-<p>20 Feb 2025 - </p>
+<p>20 Feb 2025 </p>
 
+<main class="blog-container"><p>📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula
+💎 Mengenal Ruby &amp; Jekyll
+Ruby: Bahasa pemrograman dinamis yang powerfull</p>
+
+<p>Jekyll: Tools untuk generate website statis secara otomatis, sering dipakai untuk:</p>
+
+<p>Blog pribadi</p>
+
+<p>Dokumentasi proyek</p>
+
+<p>Website portofolio</p>
+
+<p>Situs GitHub Pages</p>
+
+<p>🔧 Langkah Persiapan</p>
+<ol>
+  <li>Instalasi Ruby
+▶ Untuk Pengguna Windows
+Download installer terbaru di: https://rubyinstaller.org</li>
+</ol>
+
+<p>Rekomendasi pilih versi Ruby+DevKit (misal: Ruby 3.1.4)</p>
+
+<p>Tips instalasi:</p>
+
+<p>Centang “Add Ruby to PATH”</p>
+
+<p>Jalankan ridk install saat diminta</p>
+
+<p>Pilih opsi 1-3 saat instalasi MSYS2</p>
+
+<p>▶ Untuk Pengguna macOS
+Buka Terminal dan jalankan:</p>
+
+<p>bash
+Copy
+/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+brew install ruby
+▶ Untuk Pengguna Linux (Debian/Ubuntu)
+bash
+Copy
+sudo apt update
+sudo apt install ruby-full build-essential
+Tambahkan ini di .bashrc:</p>
+
+<p>bash
+Copy
+export GEM_HOME=”$HOME/gems”
+export PATH=”$HOME/gems/bin:$PATH”
+Lalu jalankan:</p>
+
+<p>bash
+Copy
+source ~/.bashrc
+⚡ Instalasi Jekyll
+Setelah Ruby sukses terinstall:</p>
+
+<p>bash
+Copy
+gem install jekyll bundler
+💡 Tips: Jika ada error permission, coba dengan:</p>
+
+<p>bash
+Copy
+sudo gem install jekyll bundler
+🚀 Memulai Proyek Jekyll Pertama
+Buat proyek baru:</p>
+
+<p>bash
+Copy
+jekyll new blog-saya
+cd blog-saya
+Jalankan server development:</p>
+
+<p>bash
+Copy
+bundle exec jekyll serve
+Buka browser ke:</p>
+
+<p>Copy
+http://localhost:4000
+🔍 Troubleshooting:</p>
+
+<p>Jika ada error dependency, coba:</p>
+
+<p>bash
+Copy
+bundle install
+🧰 Perintah Penting
+bash
+Copy
+ruby -v          # Cek versi Ruby
+jekyll -v        # Cek versi Jekyll
+jekyll serve     # Jalankan server (auto reload)
+jekyll build     # Build situs ke folder _site
+🎉 Selamat!
+Anda sudah berhasil:</p>
+
+<p>Menginstall Ruby dan Jekyll</p>
+
+<p>Membuat proyek Jekyll pertama</p>
+
+<p>Menjalankan server lokal</p>
+
+<p>Langkah selanjutnya:</p>
+
+<p>Eksplor tema Jekyll di jekyllthemes.org</p>
+
+<p>Pelajari struktur folder Jekyll</p>
+
+<p>Deploy ke GitHub Pages</p>
+
+<p>Happy Coding! 👨💻👩💻</p>
+</main>
 </body>
 </html>

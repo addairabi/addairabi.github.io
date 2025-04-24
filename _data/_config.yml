@@ -2,6 +2,10 @@ title: Home
 baseurl: ""
 url: "https://addairabi.github.io/"
 
+plugins:
+     -jekyll-sitemap
+     -jekyll-feed
+     -jekyll-seo-tag
 sass:
 sass_dir: _sass
 style: compressed

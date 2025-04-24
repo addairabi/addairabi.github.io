@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-24T15:58:44+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">HTML Link dan Lists</title><link href="http://localhost:4000/2025/03/20/html-link-dan-lists.html" rel="alternate" type="text/html" title="HTML Link dan Lists" /><published>2025-03-20T00:00:00+07:00</published><updated>2025-03-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/20/html-link-dan-lists</id><content type="html" xml:base="http://localhost:4000/2025/03/20/html-link-dan-lists.html"><![CDATA[<p>aaaa</p>]]></content><author><name></name></author><summary type="html"><![CDATA[aaaa]]></summary></entry><entry><title type="html">HTML: Link dan List</title><link href="http://localhost:4000/2025/03/13/layout-dan-navigation.html" rel="alternate" type="text/html" title="HTML: Link dan List" /><published>2025-03-13T00:00:00+07:00</published><updated>2025-03-13T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/13/layout-dan-navigation</id><content type="html" xml:base="http://localhost:4000/2025/03/13/layout-dan-navigation.html"><![CDATA[<p>aaaa</p>]]></content><author><name></name></author><summary type="html"><![CDATA[aaaa]]></summary></entry><entry><title type="html">Belajar Markdown &amp;amp; HTML</title><link href="http://localhost:4000/2025/03/06/markdown.html" rel="alternate" type="text/html" title="Belajar Markdown &amp;amp; HTML" /><published>2025-03-06T00:00:00+07:00</published><updated>2025-03-06T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/06/markdown</id><content type="html" xml:base="http://localhost:4000/2025/03/06/markdown.html"><![CDATA[<p>aaaa</p>]]></content><author><name></name></author><summary type="html"><![CDATA[aaaa]]></summary></entry><entry><title type="html">Instalasi Ruby dan Jekyll</title><link href="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html" rel="alternate" type="text/html" title="Instalasi Ruby dan Jekyll" /><published>2025-02-20T00:00:00+07:00</published><updated>2025-02-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll</id><content type="html" xml:base="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html"><![CDATA[<p>📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula
+💎 Mengenal Ruby &amp; Jekyll
+Ruby: Bahasa pemrograman dinamis yang powerfull</p>
+
+<p>Jekyll: Tools untuk generate website statis secara otomatis, sering dipakai untuk:</p>
+
+<p>Blog pribadi</p>
+
+<p>Dokumentasi proyek</p>
+
+<p>Website portofolio</p>
+
+<p>Situs GitHub Pages</p>
+
+<p>🔧 Langkah Persiapan</p>
+<ol>
+  <li>Instalasi Ruby
+▶ Untuk Pengguna Windows
+Download installer terbaru di: https://rubyinstaller.org</li>
+</ol>
+
+<p>Rekomendasi pilih versi Ruby+DevKit (misal: Ruby 3.1.4)</p>
+
+<p>Tips instalasi:</p>
+
+<p>Centang “Add Ruby to PATH”</p>
+
+<p>Jalankan ridk install saat diminta</p>
+
+<p>Pilih opsi 1-3 saat instalasi MSYS2</p>
+
+<p>▶ Untuk Pengguna macOS
+Buka Terminal dan jalankan:</p>
+
+<p>bash
+Copy
+/bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+brew install ruby
+▶ Untuk Pengguna Linux (Debian/Ubuntu)
+bash
+Copy
+sudo apt update
+sudo apt install ruby-full build-essential
+Tambahkan ini di .bashrc:</p>
+
+<p>bash
+Copy
+export GEM_HOME=”$HOME/gems”
+export PATH=”$HOME/gems/bin:$PATH”
+Lalu jalankan:</p>
+
+<p>bash
+Copy
+source ~/.bashrc
+⚡ Instalasi Jekyll
+Setelah Ruby sukses terinstall:</p>
+
+<p>bash
+Copy
+gem install jekyll bundler
+💡 Tips: Jika ada error permission, coba dengan:</p>
+
+<p>bash
+Copy
+sudo gem install jekyll bundler
+🚀 Memulai Proyek Jekyll Pertama
+Buat proyek baru:</p>
+
+<p>bash
+Copy
+jekyll new blog-saya
+cd blog-saya
+Jalankan server development:</p>
+
+<p>bash
+Copy
+bundle exec jekyll serve
+Buka browser ke:</p>
+
+<p>Copy
+http://localhost:4000
+🔍 Troubleshooting:</p>
+
+<p>Jika ada error dependency, coba:</p>
+
+<p>bash
+Copy
+bundle install
+🧰 Perintah Penting
+bash
+Copy
+ruby -v          # Cek versi Ruby
+jekyll -v        # Cek versi Jekyll
+jekyll serve     # Jalankan server (auto reload)
+jekyll build     # Build situs ke folder _site
+🎉 Selamat!
+Anda sudah berhasil:</p>
+
+<p>Menginstall Ruby dan Jekyll</p>
+
+<p>Membuat proyek Jekyll pertama</p>
+
+<p>Menjalankan server lokal</p>
+
+<p>Langkah selanjutnya:</p>
+
+<p>Eksplor tema Jekyll di jekyllthemes.org</p>
+
+<p>Pelajari struktur folder Jekyll</p>
+
+<p>Deploy ke GitHub Pages</p>
+
+<p>Happy Coding! 👨💻👩💻</p>]]></content><author><name></name></author><summary type="html"><![CDATA[📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula 💎 Mengenal Ruby &amp; Jekyll Ruby: Bahasa pemrograman dinamis yang powerfull]]></summary></entry></feed>
