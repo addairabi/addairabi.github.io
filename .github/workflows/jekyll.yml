@@ -1,4 +1,4 @@
-name: Jekyll Build and Deploy
+name: Build and Deploy Jekyll Site
 
 on:
   push:
@@ -11,28 +11,39 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      # Langkah 1: Checkout kode
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Langkah 2: Setup Ruby versi yang sesuai
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'  # Versi yang kompatibel dengan GitHub Pages
-          bundler-cache: true
+          ruby-version: '3.2'  # Minimal versi 3.2
+          bundler-cache: true  # Mengaktifkan caching untuk dependencies
 
+      # Langkah 3: Persiapan platform
+      - name: Setup Bundler Platforms
+        run: |
+          bundle lock --add-platform x86_64-linux
+          bundle lock --normalize-platforms
+
+      # Langkah 4: Install dependencies
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
 
+      # Langkah 5: Build dengan Jekyll
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./  # Direktori sumber
-          destination: ./_site  # Direktori output
+          source: ./
+          destination: ./_site
           token: ${{ secrets.GITHUB_TOKEN }}
-          verbose: true  # Untuk output lebih detail
+          verbose: true
 
+      # Langkah 6: Deploy ke GitHub Pages
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
