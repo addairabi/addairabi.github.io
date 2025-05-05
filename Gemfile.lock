@@ -277,13 +277,14 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  faraday-retry
+  faraday-retry (~> 2.2)
   github-pages (~> 232)
-  jekyll
-  jekyll-feed
-  jekyll-seo-tag
-  jekyll-sitemap
-  webrick
+  jekyll (~> 3.10.0)
+  jekyll-feed (~> 0.17)
+  jekyll-seo-tag (~> 2.8)
+  jekyll-sitemap (~> 1.4)
+  nokogiri (~> 1.18)
+  webrick (~> 1.8)
 
 BUNDLED WITH
    2.6.8

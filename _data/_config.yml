@@ -1,13 +1,16 @@
+
 title: Home
-baseurl: ""
+baseurl: "" 
 url: "https://addairabi.github.io/"
 
 plugins:
-     - jekyll-sitemap
-     - jekyll-feed
-     - jekyll-seo-tag
-sass:
-sass_dir: _sass
-style: compressed
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
+# Hapus konfigurasi sass jika tidak digunakan
 theme: null
+
+# Tambahkan konfigurasi default untuk feed
+jekyll-feed:
+  path: "feed.xml"
