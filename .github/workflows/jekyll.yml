@@ -20,7 +20,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'  # Minimal versi 3.2
-          bundler-cache: true  # Mengaktifkan caching untuk dependencies
+          bundler-cache: false  # Mengaktifkan caching untuk dependencies
 
       # Langkah 3: Persiapan platform
       - name: Setup Bundler Platforms
@@ -28,13 +28,20 @@ jobs:
           bundle lock --add-platform x86_64-linux
           bundle lock --normalize-platforms
 
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential patch zlib1g-dev liblzma-dev
+
       # Langkah 4: Install dependencies
       - name: Install dependencies
         run: |
           gem install bundler
+          bundle config path vendor/bundle
+          bundle config deployment true
+          bundle lock --add-platform x86_64-linux
           bundle add jekyll-feed
           bundle install
-
 
       # Langkah 5: Build dengan Jekyll
       - name: Build with Jekyll

@@ -11,5 +11,7 @@ group :jekyll_plugins do
     gem "jekyll-feed"
     gem "jekyll-seo-tag"
     gem "webrick"
+    gem "faraday-retry"
+    
 end
 gem "github-pages", "~> 232"
