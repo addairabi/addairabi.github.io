@@ -313,6 +313,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
+  webrick
 
 BUNDLED WITH
    2.6.8

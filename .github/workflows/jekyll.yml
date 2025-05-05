@@ -32,7 +32,9 @@ jobs:
       - name: Install dependencies
         run: |
           gem install bundler
+          bundle add jekyll-feed
           bundle install
+
 
       # Langkah 5: Build dengan Jekyll
       - name: Build with Jekyll
