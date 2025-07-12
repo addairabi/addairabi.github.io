@@ -1,4 +1,3 @@
-
 title: Home
 baseurl: "" 
 url: "https://addairabi.github.io/"
@@ -8,9 +7,4 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Hapus konfigurasi sass jika tidak digunakan
-theme: null
-
-# Tambahkan konfigurasi default untuk feed
-jekyll-feed:
-  path: "feed.xml"
+theme: jekyll-theme-primer  # atau theme lain bawaan GitHub Pages
