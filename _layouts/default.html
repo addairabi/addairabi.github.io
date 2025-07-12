@@ -15,8 +15,12 @@
     <script src="{{ site.baseurl }}/assets/js/script.js"></script>
 
 
+
+    <!--aaltenatif {% feed_meta %} -->  
+    <link type="application/atom+xml" rel="alternate" href="{{ "/feed.xml" | relative_url }}" title="Feed {{ site.title }}">
     <!-- plugins -->
-    {% feed_meta %} {% seo %}
+    <!-- {% feed_meta %} -->
+    {% seo %}
 
 </head>
 <body>
