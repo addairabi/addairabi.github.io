@@ -1,18 +1,177 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-05-22T14:12:05+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">HTML Link dan Lists</title><link href="http://localhost:4000/2025/03/20/html-link-dan-lists.html" rel="alternate" type="text/html" title="HTML Link dan Lists" /><published>2025-03-20T00:00:00+07:00</published><updated>2025-03-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/20/html-link-dan-lists</id><content type="html" xml:base="http://localhost:4000/2025/03/20/html-link-dan-lists.html"><![CDATA[<p>aaaa</p>]]></content><author><name></name></author><summary type="html"><![CDATA[aaaa]]></summary></entry><entry><title type="html">HTML: Link dan List</title><link href="http://localhost:4000/2025/03/13/layout-dan-navigation.html" rel="alternate" type="text/html" title="HTML: Link dan List" /><published>2025-03-13T00:00:00+07:00</published><updated>2025-03-13T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/13/layout-dan-navigation</id><content type="html" xml:base="http://localhost:4000/2025/03/13/layout-dan-navigation.html"><![CDATA[<p>aaaa</p>]]></content><author><name></name></author><summary type="html"><![CDATA[aaaa]]></summary></entry><entry><title type="html">Belajar Markdown &amp;amp; HTML</title><link href="http://localhost:4000/2025/03/06/markdown.html" rel="alternate" type="text/html" title="Belajar Markdown &amp;amp; HTML" /><published>2025-03-06T00:00:00+07:00</published><updated>2025-03-06T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/06/markdown</id><content type="html" xml:base="http://localhost:4000/2025/03/06/markdown.html"><![CDATA[<p>aaaa</p>]]></content><author><name></name></author><summary type="html"><![CDATA[aaaa]]></summary></entry><entry><title type="html">Instalasi Ruby dan Jekyll</title><link href="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html" rel="alternate" type="text/html" title="Instalasi Ruby dan Jekyll" /><published>2025-02-20T00:00:00+07:00</published><updated>2025-02-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll</id><content type="html" xml:base="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html"><![CDATA[<p>📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula
-💎 Mengenal Ruby &amp; Jekyll
-Ruby: Bahasa pemrograman dinamis yang powerfull</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-07-12T16:40:14+07:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">HTML Link dan Lists</title><link href="http://localhost:4000/2025/03/20/html-link-dan-lists.html" rel="alternate" type="text/html" title="HTML Link dan Lists" /><published>2025-03-20T00:00:00+07:00</published><updated>2025-03-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/20/html-link-dan-lists</id><content type="html" xml:base="http://localhost:4000/2025/03/20/html-link-dan-lists.html"><![CDATA[<h1 id="html-link-dan-lists">HTML: Link dan Lists</h1>
 
-<p>Jekyll: Tools untuk generate website statis secara otomatis, sering dipakai untuk:</p>
+<h2 id="apa-itu-html-link--lists">Apa Itu HTML Link &amp; Lists?</h2>
 
-<p>Blog pribadi</p>
+<p>Dalam HTML, <strong>link</strong> (tautan) digunakan untuk mengarahkan pengguna ke halaman lain, baik di dalam situs yang sama maupun ke situs eksternal. Elemen HTML yang digunakan adalah <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code> (anchor tag).</p>
 
-<p>Dokumentasi proyek</p>
+<p>Sementara itu, <strong>lists</strong> (daftar) digunakan untuk menampilkan informasi dalam bentuk poin-poin. Ada dua jenis utama:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> (<em>unordered list</em>) untuk daftar tak berurutan (bulatan)</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code> (<em>ordered list</em>) untuk daftar berurutan (nomor)</li>
+</ul>
 
-<p>Website portofolio</p>
+<p>Setiap item di dalam daftar ditulis menggunakan <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code> (<em>list item</em>).</p>
 
-<p>Situs GitHub Pages</p>
+<hr />
 
-<p>🔧 Langkah Persiapan</p>
+<h2 id="contoh-html-link--lists">Contoh HTML Link &amp; Lists</h2>
+
+<h3 id="link-tautan">Link (Tautan)</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com"</span><span class="nt">&gt;</span>Kunjungi Google<span class="nt">&lt;/a&gt;</span>
+</code></pre></div></div>
+<h3 id="unordered-list-daftar-tak-berurutan">Unordered List (Daftar Tak Berurutan)</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul&gt;</span>
+  <span class="nt">&lt;li&gt;</span>HTML<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>CSS<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>JavaScript<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+
+<h3 id="ordered-list-daftar-berurutan">Ordered List (Daftar Berurutan)</h3>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ol&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Bangun tidur<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Sarapan<span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li&gt;</span>Belajar coding<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+
+<h2 id="kesimpulan">Kesimpulan</h2>
+<ul>
+  <li>Tag <a> digunakan untuk membuat link, dengan atribut href untuk menentukan tujuan tautannya.</a></li>
+  <li>Tag &lt;ul&gt; dan &lt;ol&gt; digunakan untuk membuat daftar.</li>
+  <li>Setiap item daftar ditulis menggunakan &lt;li&gt;.</li>
+  <li>Gunakan &lt;ul&gt; jika urutan tidak penting, dan &lt;ol&gt; jika urutan penting (seperti langkah-langkah atau instruksi).
+HTML Link dan Lists sangat berguna dalam membuat navigasi, menampilkan menu, atau menyusun informasi dalam bentuk poin-poin yang rapi dan mudah dibaca!</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[HTML: Link dan Lists]]></summary></entry><entry><title type="html">Layout dan navigation</title><link href="http://localhost:4000/2025/03/13/layout-dan-navigation.html" rel="alternate" type="text/html" title="Layout dan navigation" /><published>2025-03-13T00:00:00+07:00</published><updated>2025-03-13T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/13/layout-dan-navigation</id><content type="html" xml:base="http://localhost:4000/2025/03/13/layout-dan-navigation.html"><![CDATA[<h2 id="html-layout-dan-navigation">HTML Layout dan Navigation</h2>
+
+<h3 id="apa-itu-layout-dan-navigation">Apa Itu Layout dan Navigation?</h3>
+
+<p><strong>Layout</strong> dalam HTML adalah cara kita menyusun elemen-elemen dalam halaman web agar terlihat terstruktur dan mudah dibaca. Biasanya kita menggunakan elemen seperti:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">&lt;div&gt;</code>: wadah umum untuk mengelompokkan elemen</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;header&gt;</code>: bagian atas halaman (biasanya berisi logo, judul, dan menu)</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;main&gt;</code>: isi utama dari halaman</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;footer&gt;</code>: bagian bawah halaman (biasanya berisi copyright, kontak, dll.)</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;section&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;article&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;aside&gt;</code>: untuk pengelompokan konten secara semantik</li>
+</ul>
+
+<p>Sementara itu, <strong>navigation</strong> (navigasi) adalah menu atau tautan yang membantu pengguna berpindah antar halaman atau bagian dalam website. Biasanya dibungkus dalam elemen <code class="language-plaintext highlighter-rouge">&lt;nav&gt;</code>.</p>
+
+<hr />
+
+<h3 id="contoh-layout-dan-navigation">Contoh Layout dan Navigation</h3>
+
+<p>&lt;!DOCTYPE html&gt;</p>
+<html>
+  <head>
+    <title>Contoh Layout &amp; Navigasi</title>
+  </head>
+  <body>
+
+    <header>
+      <h1>Website Saya</h1>
+      <nav>
+        <a href="#beranda">Beranda</a> |
+        <a href="#tentang">Tentang</a> |
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda">
+        <h2>Selamat Datang</h2>
+        <p>Ini adalah halaman utama dari website saya.</p>
+      </section>
+
+      <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Saya sedang belajar HTML &amp; Web Development.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Website Saya</p>
+    </footer>
+
+  </body>
+</html>
+
+<h2 id="kesimpulan">Kesimpulan</h2>
+<ul>
+  <li>Elemen layout seperti &lt;header&gt;, &lt;main&gt;, &lt;footer&gt;, &lt;section&gt;, dan &lt;div&gt; digunakan untuk menyusun tampilan halaman agar rapi dan semantik.</li>
+  <li>Navigasi dibuat dengan tag &lt;nav&gt; dan isi link <a> di dalamnya.</a></li>
+  <li>Struktur layout yang baik memudahkan pengguna dan pengembang memahami isi halaman.</li>
+  <li>Kombinasi layout dan navigasi adalah fondasi dari semua website modern.</li>
+  <li>Gunakan elemen semantik untuk membuat kode HTML kamu lebih terstruktur dan mudah dipahami — baik oleh manusia maupun mesin pencari (SEO)!</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[HTML Layout dan Navigation]]></summary></entry><entry><title type="html">Belajar Markdown &amp;amp; HTML</title><link href="http://localhost:4000/2025/03/06/markdown.html" rel="alternate" type="text/html" title="Belajar Markdown &amp;amp; HTML" /><published>2025-03-06T00:00:00+07:00</published><updated>2025-03-06T00:00:00+07:00</updated><id>http://localhost:4000/2025/03/06/markdown</id><content type="html" xml:base="http://localhost:4000/2025/03/06/markdown.html"><![CDATA[<h1 id="-belajar-markdown--html">📘 Belajar Markdown &amp; HTML</h1>
+
+<h2 id="-apa-itu-markdown--html">🧾 Apa Itu Markdown &amp; HTML?</h2>
+
+<p><strong>Markdown</strong> adalah bahasa markup ringan yang digunakan untuk memformat teks secara sederhana dan mudah dibaca. Markdown sering dipakai dalam penulisan dokumentasi, blog, catatan, serta README di GitHub.</p>
+
+<p>Sementara itu, <strong>HTML (HyperText Markup Language)</strong> adalah bahasa standar yang digunakan untuk membuat dan menyusun halaman web. HTML memberikan struktur dan mengatur tampilan berbagai elemen seperti teks, gambar, link, dan sebagainya.</p>
+
+<hr />
+
+<h2 id="-contoh-markdown--html">🧪 Contoh Markdown &amp; HTML</h2>
+
+<h3 id="️-contoh-markdown">✍️ Contoh Markdown</h3>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Ini Judul H1</span>
+<span class="gu">## Ini Subjudul H2</span>
+
+<span class="gs">**Teks Tebal**</span>  
+<span class="ge">_Miring_</span>  
+~~Dicoret~~  
+<span class="sb">`Kode Inline`</span>
+<span class="p">
+-</span> List Item 1
+<span class="p">-</span> List Item 2
+<span class="p">  -</span> Subitem
+<span class="p">
+1.</span> Pertama
+<span class="p">2.</span> Kedua
+
+<span class="se">\`\`\`</span>html
+<span class="nt">&lt;h1&gt;</span>Hello World<span class="nt">&lt;/h1&gt;</span>
+<span class="se">\`\`\`</span>
+</code></pre></div></div>
+<h3 id="contoh-html">Contoh HTML</h3>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;title&gt;</span>Judul Halaman<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Halo Dunia<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Ini adalah paragraf pertama saya.<span class="nt">&lt;/p&gt;</span>
+
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<h2 id="kesimpulan">Kesimpulan</h2>
+<ul>
+  <li>Markdown sangat cocok untuk penulisan cepat dan sederhana seperti dokumentasi, catatan, dan blog.</li>
+  <li>HTML digunakan untuk membuat struktur dan tampilan halaman web secara lengkap.</li>
+  <li>Markdown lebih cepat dan mudah digunakan, sedangkan HTML lebih fleksibel dan dapat dikustomisasi penuh.</li>
+  <li>Keduanya penting untuk dipelajari karena saling melengkapi, terutama dalam dunia penulisan digital dan pengembangan web.</li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[📘 Belajar Markdown &amp; HTML]]></summary></entry><entry><title type="html">Instalasi Ruby dan Jekyll</title><link href="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html" rel="alternate" type="text/html" title="Instalasi Ruby dan Jekyll" /><published>2025-02-20T00:00:00+07:00</published><updated>2025-02-20T00:00:00+07:00</updated><id>http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll</id><content type="html" xml:base="http://localhost:4000/2025/02/20/instal-ruby-dan-jekyll.html"><![CDATA[<h1 id="panduan-instalasi-jekyll-dan-ruby-untuk-pemula">Panduan Instalasi Jekyll dan Ruby untuk Pemula</h1>
+
+<h2 id="mengenal-ruby--jekyll">Mengenal Ruby &amp; Jekyll</h2>
+<p>Ruby: Bahasa pemrograman dinamis yang powerfull
+Jekyll: Tools untuk generate website statis secara otomatis, sering dipakai untuk:</p>
+
+<ul>
+  <li>Blog pribadi</li>
+  <li>Dokumentasi proyek</li>
+  <li>Website portofolio</li>
+  <li>Situs GitHub Pages</li>
+</ul>
+
+<h2 id="langkah-persiapan">Langkah Persiapan</h2>
 <ol>
   <li>Instalasi Ruby
 ▶ Untuk Pengguna Windows
@@ -110,4 +269,4 @@ Anda sudah berhasil:</p>
 
 <p>Deploy ke GitHub Pages</p>
 
-<p>Happy Coding! 👨💻👩💻</p>]]></content><author><name></name></author><summary type="html"><![CDATA[📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula 💎 Mengenal Ruby &amp; Jekyll Ruby: Bahasa pemrograman dinamis yang powerfull]]></summary></entry></feed>
+<p>Happy Coding! 👨💻👩💻</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Panduan Instalasi Jekyll dan Ruby untuk Pemula]]></summary></entry></feed>

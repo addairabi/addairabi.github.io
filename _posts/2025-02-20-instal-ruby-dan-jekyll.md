@@ -4,21 +4,18 @@ title: "Instalasi Ruby dan Jekyll"
 date: 2025-02-20
 ---
 
-📘 Panduan Instalasi Jekyll dan Ruby untuk Pemula
-💎 Mengenal Ruby & Jekyll
-Ruby: Bahasa pemrograman dinamis yang powerfull
+# Panduan Instalasi Jekyll dan Ruby untuk Pemula
 
+## Mengenal Ruby & Jekyll
+Ruby: Bahasa pemrograman dinamis yang powerfull
 Jekyll: Tools untuk generate website statis secara otomatis, sering dipakai untuk:
 
-Blog pribadi
+- Blog pribadi
+- Dokumentasi proyek
+- Website portofolio
+- Situs GitHub Pages
 
-Dokumentasi proyek
-
-Website portofolio
-
-Situs GitHub Pages
-
-🔧 Langkah Persiapan
+## Langkah Persiapan
 1. Instalasi Ruby
 ▶ Untuk Pengguna Windows
 Download installer terbaru di: https://rubyinstaller.org
